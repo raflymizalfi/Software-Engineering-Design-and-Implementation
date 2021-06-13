@@ -18,7 +18,7 @@
                         <span>Services</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">
                         <span>Company</span>
                     </a>
@@ -27,7 +27,7 @@
                     <a class="nav-link" aria-current="page" href="#">
                         <span>Contact us</span>
                     </a>
-                </li>
+                </li> -->
             </ul>
 
             <ul class="navbar-nav mb-2 mb-lg-0">
