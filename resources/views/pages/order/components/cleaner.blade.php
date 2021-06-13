@@ -16,7 +16,7 @@ height: 150px" alt="">
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        4.5
+                        4.0
                     </h3>
                 </div>
             </div>
@@ -28,7 +28,7 @@ height: 150px" alt="">
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        4.5
+                        4.1
                     </h3>
                 </div>
             </div>
@@ -40,7 +40,7 @@ height: 150px" alt="">
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        4.5
+                        3.9
                     </h3>
                 </div>
             </div>
@@ -52,7 +52,7 @@ height: 150px" alt="">
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        4.5
+                        4.8
                     </h3>
                 </div>
             </div>
@@ -64,7 +64,7 @@ height: 150px" alt="">
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        4.5
+                        4.3
                     </h3>
                 </div>
             </div>
