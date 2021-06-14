@@ -7,7 +7,9 @@
                         <path d="M51.8388 19.2501V3.11798H42.7054V11.0338L30.5291 0.0727539L0.0881805 27.4709H9.22157V51.8237H24.4409V33.5591H36.6173V51.8237H51.8388V27.4709H60.9722L51.8388 19.2501ZM24.4409 21.3759C24.4409 19.7612 25.0823 18.2127 26.2241 17.0709C27.3658 15.9291 28.9144 15.2877 30.5291 15.2877C32.1438 15.2877 33.6923 15.9291 34.8341 17.0709C35.9758 18.2127 36.6173 19.7612 36.6173 21.3759H24.4409Z" fill="#00C46F" />
                     </svg> All Room
                 </h1>
-                <h6>All Room ini membersihkan semua bagian rumah </h6>
+                <h6>All Room 
+                    We clean all parts of the room in the house such as bedrooms, bathrooms, living rooms, kitchens, courtyards, and garages.
+                </h6>
             </div>
 
         </div>
