@@ -62,7 +62,7 @@
             <div> <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="7.5" cy="7.5" r="7.5" fill="#00C46F" />
                 </svg> <span class="fs-15">YOUR LOCATION</span>
-                <h3 class="fw-bold fs-30">Bojongsoang</h3>
+                <input class="fw-bold fs-30 form-control my-1" placeholder="Bojongsoang" />
                 <h6 class="fs-15">Kab bandung West Java, Indonesia</h6>
 
             </div>
