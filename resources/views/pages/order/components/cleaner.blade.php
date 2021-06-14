@@ -12,11 +12,11 @@
                 <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
 height: 150px" alt="">
                 <div>
-                    <h3 class="fs-20 text-center mt-2">Angel</h3>
+                    <h3 class="fs-20 text-center mt-2">Alex</h3>
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        4.0
+                        4.3
                     </h3>
                 </div>
             </div>
@@ -24,7 +24,31 @@ height: 150px" alt="">
                 <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
 height: 150px" alt="">
                 <div>
-                    <h3 class="fs-20 text-center mt-2">Michael</h3>
+                    <h3 class="fs-20 text-center mt-2">Ramaditya</h3>
+                    <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
+                        </svg>
+                        4.7
+                    </h3>
+                </div>
+            </div>
+            <div class="card" style="">
+                <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
+height: 150px" alt="">
+                <div>
+                    <h3 class="fs-20 text-center mt-2">Jackson</h3>
+                    <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
+                        </svg>
+                        4.9
+                    </h3>
+                </div>
+            </div>
+            <div class="card" style="">
+                <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
+height: 150px" alt="">
+                <div>
+                    <h3 class="fs-20 text-center mt-2">Bobby</h3>
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
@@ -36,35 +60,11 @@ height: 150px" alt="">
                 <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
 height: 150px" alt="">
                 <div>
-                    <h3 class="fs-20 text-center mt-2">Mark</h3>
+                    <h3 class="fs-20 text-center mt-2">Reza</h3>
                     <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
                         </svg>
-                        3.9
-                    </h3>
-                </div>
-            </div>
-            <div class="card" style="">
-                <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
-height: 150px" alt="">
-                <div>
-                    <h3 class="fs-20 text-center mt-2">Lizzy</h3>
-                    <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
-                        </svg>
-                        4.8
-                    </h3>
-                </div>
-            </div>
-            <div class="card" style="">
-                <img src="img/avatar.jpeg" style="width: 150px; border-radius: 28px;
-height: 150px" alt="">
-                <div>
-                    <h3 class="fs-20 text-center mt-2">Jenny</h3>
-                    <h3 class="text-center fs-20" style="color : #FFAA00;"><svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.518 23.187L24.5388 28.6283L22.1443 18.3735L30.1051 11.4673L19.6094 10.5778L15.518 0.91748L11.4161 10.5862L0.92041 11.4757L8.8812 18.3819L6.48667 28.6366L15.518 23.187Z" fill="#FFAA00" />
-                        </svg>
-                        4.3
+                        4.7
                     </h3>
                 </div>
             </div>
