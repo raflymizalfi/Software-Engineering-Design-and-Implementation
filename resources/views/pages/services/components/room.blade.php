@@ -45,7 +45,7 @@
                 <h6>We cleaning all side of the room and We also tidy up messy items and provide air freshener so that the room smells fresh</h6>
             </div>
 
-             </div>
+        </div>
         <div class="card my-5">
             <img src="img/Kitchen.jpg" alt="">
             <div class="container">
@@ -56,7 +56,7 @@
                 <h6>We cleaning all side of the room and We also tidy up messy items and provide air freshener so that the room smells fresh</h6>
             </div>
 
-             </div>
+        </div>
         <div class="card my-5">
             <img src="img/yard.jpg" alt="">
             <div class="container">
@@ -67,7 +67,7 @@
                 <h6>We cleaning all side of the room and We also tidy up messy items and provide air freshener so that the room smells fresh</h6>
             </div>
 
-             </div>
+        </div>
         <div class="card my-5">
             <img src="img/Kitchen.jpg" alt="">
             <div class="container">
@@ -78,7 +78,7 @@
                 <h6>We cleaning all side of the room and We also tidy up messy items and provide air freshener so that the room smells fresh</h6>
             </div>
 
-             </div>
+        </div>
         <div class="card my-5">
             <img src="img/warehouse.jpg" alt="">
             <div class="container">
