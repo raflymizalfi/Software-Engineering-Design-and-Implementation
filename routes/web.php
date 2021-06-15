@@ -26,13 +26,14 @@ Route::group([], function () {
     Route::get('/order-detail/{id}', [ViewController::class, "orderDetail"]);
 });
 
-Route::group(["prefix" => "user"], function () {
+Route::group(["prefix" => "user"], function() {
     Route::post("/login", [UserController::class, "login"]);
     Route::post("/register", [UserController::class, "register"]);
     Route::get("/logout", [UserController::class, "logout"]);
 });
 
-Route::group(["prefix" => "order"], function () {
+Route::group(["prefix" => "order"], function() {
     Route::post("/booking", [OrderController::class, "booking"]);
     Route::get("/cancel/{id}", [OrderController::class, "cancel"]);
+    Route::get("/finish/{id}", [OrderController::class, "finish"]);
 });

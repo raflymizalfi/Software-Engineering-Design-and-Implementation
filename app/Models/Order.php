@@ -13,4 +13,9 @@ class Order extends Model
     {
         return $this->belongsTo(Service::class);
     }
+
+    public function cleaner()
+    {
+        return $this->belongsTo(Cleaner::class);
+    }
 }

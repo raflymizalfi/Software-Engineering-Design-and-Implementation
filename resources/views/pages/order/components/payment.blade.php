@@ -11,12 +11,12 @@
         <div class="my-5">
             <div class="row d-flex justify-content-around align-items-center payment">
                 <div class="col-4 form-check">
-                    <input class="form-check-input" type='radio' value='cash' name='flexRadioDefault' id='cash'>
-                    <label onclick="activeClassPayment(`cash`),console.log(`cash`)" class="form-check-label w-100 fs-30 text-center  p-2 border border-dark cash pointer" for='cash' style="border-radius: 15px;">
-                        Cash</label>
+                    <input class="form-check-input" type='radio' value='cash' name='payment_method' required id='cash'>
+                    <label onclick="activeClassPayment(`cash`)" class="form-check-label w-100 fs-30 text-center  p-2 border border-dark cash pointer" for='cash' style="border-radius: 15px;">Cash</label>
                 </div>
-                <div class="col-4 form-check"> <input class=" form-check-input" type='radio' value='bank' name='flexRadioDefault' id='bank'>
-                    <label onclick="activeClassPayment(`bank`),console.log(`bank`)" class="form-check-label w-100 fs-30 text-center   p-2 border border-dark bank pointer" style="border-radius: 15px;" for='bank'>Bank</label>
+                <div class="col-4 form-check">
+                    <input class=" form-check-input" type='radio' value='bank' name='payment_method' required id='bank'>
+                    <label onclick="activeClassPayment(`bank`)" class="form-check-label w-100 fs-30 text-center   p-2 border border-dark bank pointer" style="border-radius: 15px;" for='bank'>Bank</label>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="mx-auto" style="background: #F7F7F7; border-radius: 28px; ">
                 <div class="p-5">
                     <div class="d-flex justify-content-between border-bottom border-dark my-4">
-                        <span class="fs-20 ms-4">All Room</span> <span class="fs-20 me-4">200.000</span>
+                        <span class="fs-20 ms-4">Main Fee</span> <span class="fs-20 me-4">200.000</span>
                     </div>
                     <div class="d-flex justify-content-between border-bottom border-dark my-4">
                         <span class="fs-20 ms-4">Cleaner Fee</span> <span class="fs-20 me-4">25.000</span>

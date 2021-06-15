@@ -23,13 +23,15 @@ class CreateOrdersTable extends Migration
                 ->constrained()
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
-            // $table->foreignId('cleaner_id')
-            //     ->constrained()
-            //     ->onUpdate('cascade')
-            //     ->onDelete('cascade');
+            $table->foreignId('cleaner_id')
+                ->constrained()
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
             $table->text("location");
+            $table->string("payment_method", 20);
             $table->date("date");
             $table->time("time");
+            $table->boolean("is_done")->default(false);
             $table->timestamps();
         });
     }

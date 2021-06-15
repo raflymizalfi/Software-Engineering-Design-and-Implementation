@@ -16,9 +16,10 @@ class CreateServicesTable extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->id();
             $table->string("name", 20)->index();
-            $table->integer("main_fee");
-            $table->integer("cleaner_fee");
-            $table->integer("cleaner_tools");
+            $table->string("short_name", 20)->index();
+            $table->text("icon")->nullable();
+            $table->integer("fee");
+            $table->integer("tools");
             $table->timestamps();
         });
     }

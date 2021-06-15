@@ -15,6 +15,11 @@ class CreateCleanersTable extends Migration
     {
         Schema::create('cleaners', function (Blueprint $table) {
             $table->id();
+            $table->string("name", 20);
+            $table->text("photo")->nullable();
+            $table->string("phone",  15)->nullable();
+            $table->double("rating");
+            $table->integer("fee");
             $table->timestamps();
         });
     }
