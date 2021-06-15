@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@0;900&display=swap" rel="stylesheet">
     <title>Dailydaily</title>
@@ -58,6 +59,7 @@
         .vertical-line {
             display: inline-block;
             border-left: 3px solid #ccc;
+
             height: 125px;
         }
 
@@ -115,15 +117,15 @@
             cursor: pointer;
         }
 
-        .payment input,
-        .icon-order input,
-        .order input {
+        .payment 
+        input, .icon-order input,.order input {
             display: none;
         }
 
-        .order .shadow {
-            padding: 1em;
+        .order .shadow{
+            padding : 1em;
         }
+
     </style>
 </head>
 
@@ -134,46 +136,48 @@
 
     @include("layouts.components.footer")
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
     <script>
+        const arr_service = <?= json_encode(App\Models\Service::pluck("short_name")); ?>;
+        const arr_cleaner = <?= json_encode(App\Models\Cleaner::pluck("name")); ?>;
+        
         function activeClass(params) {
             const arr = ["home", "bedroom", "bathroom", "living", "kitchen", "yard", "garage", "warehouse"]
             for (let i = 0; i < arr.length; i++) {
                 if (arr[i] === params) {
                     let nowParams = document.querySelector(`.${params}-icon`)
-                    nowParams.classList.toggle('active-order')
+                    nowParams.classList.add('active-order')
                 } else {
                     let remove = document.querySelector(`.${arr[i]}-icon`)
                     remove.classList.remove('active-order')
                 }
             }
         }
-
         function activeClassPayment(params) {
             const cash = document.querySelector('.cash')
             const bank = document.querySelector('.bank')
             if (params === 'bank') {
-                bank.classList.toggle('active-payment')
+                bank.classList.add('active-payment')
                 cash.classList.remove('active-payment')
             } else if (params === 'cash') {
-                cash.classList.toggle('active-payment')
+                cash.classList.add('active-payment')
                 bank.classList.remove('active-payment')
             }
         }
-
-        function activeClassCleaner(params) {
-
-            const arr = ["reza", "alex", "ramaditya", "jackson", "bobby"]
-            for (let i = 0; i < arr.length; i++) {
+        function activeClassCleaner(params){
+   
+            const arr = arr_cleaner
+               for (let i = 0; i < arr.length; i++) {
                 if (arr[i] === params) {
                     let nowParams = document.querySelector(`.${params}`)
-                    nowParams.classList.toggle(`shadow`)
+                    nowParams.classList.add(`shadow`)
                 } else {
                     let remove = document.querySelector(`.${arr[i]}`)
                     remove.classList.remove(`shadow`)
                 }
-            }
+               }
         }
     </script>
 </body>

@@ -1,5 +1,5 @@
 <div>
-  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -7,8 +7,8 @@
     </div>
     <div class="carousel-inner ">
       <div class="carousel-item active ">
-        <img src="img/img1.jpeg" class="d-flex-auto w-100 " alt="...">
-        <div class="carousel-caption d-none d-md-block text-start mb-5 bg-gradient-dark text-white">
+        <img src="img/img1.jpeg" class="d-bloack w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block text-start mb-5 ">
           <h5 class="fs-45">Clean</h5>
           <p class="fs-30">Clean your home very cleanly and neatly</p>
         </div>
