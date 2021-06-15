@@ -78,7 +78,6 @@
         .card {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             cursor: pointer;
-
         }
 
         .gray-text {
@@ -116,6 +115,16 @@
         .pointer {
             cursor: pointer;
         }
+
+        .payment input,
+        .icon-order input,
+        .order input {
+            display: none;
+        }
+
+        .order .shadow {
+            padding: 1em;
+        }
     </style>
 </head>
 
@@ -133,9 +142,7 @@
             const arr = ["home", "bedroom", "bathroom", "living", "kitchen", "yard", "garage", "warehouse"]
             for (let i = 0; i < arr.length; i++) {
                 if (arr[i] === params) {
-                    console.log(params)
                     let nowParams = document.querySelector(`.${params}-icon`)
-                    console.log(nowParams)
                     nowParams.classList.toggle('active-order')
                 } else {
                     let remove = document.querySelector(`.${arr[i]}-icon`)
@@ -143,8 +150,6 @@
                 }
             }
         }
-
-
 
         function activeClassPayment(params) {
             const cash = document.querySelector('.cash')
@@ -155,6 +160,20 @@
             } else if (params === 'cash') {
                 cash.classList.toggle('active-payment')
                 bank.classList.remove('active-payment')
+            }
+        }
+
+        function activeClassCleaner(params) {
+
+            const arr = ["reza", "alex", "ramaditya", "jackson", "bobby"]
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] === params) {
+                    let nowParams = document.querySelector(`.${params}`)
+                    nowParams.classList.toggle(`shadow`)
+                } else {
+                    let remove = document.querySelector(`.${arr[i]}`)
+                    remove.classList.remove(`shadow`)
+                }
             }
         }
     </script>
