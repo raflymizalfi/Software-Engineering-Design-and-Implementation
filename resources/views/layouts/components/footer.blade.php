@@ -1,4 +1,4 @@
-<footer style="background-color : #00C46F" >
+<footer style="background-color : #00C46F">
     <div class="container py-5 text-white">
         <div class="row">
             <div class="col">
@@ -26,6 +26,6 @@
                 <div class="fs-15">Privacy policy</div>
             </div>
         </div>
-        <div class="fs-15 mt-3" >dailydaily Company. All Rights Reserved</div>
+        <div class="fs-15 mt-3">dailydaily Company. All Rights Reserved</div>
     </div>
 </footer>
