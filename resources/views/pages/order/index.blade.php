@@ -9,7 +9,7 @@
   @include("layouts.components.orderServicesComponent")
   @include("pages.order.components.cleaner")
   <div class="d-flex justify-content-center">
-    <button class="btn w-100 fs-30 py-2" type="submit" style="border-radius: 15px ;background: #00C46F; color:white;">Order</button>
+    <button class="btn w-50 fs-30 py-2" type="submit" style="border-radius: 15px ;background: #00C46F; color:white;">Next</button>
   </div>
 </form>
 @endsection
