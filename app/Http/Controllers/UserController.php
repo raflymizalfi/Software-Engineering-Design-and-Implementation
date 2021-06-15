@@ -12,7 +12,7 @@ class UserController extends Controller
 {
     public function login(Request $request)
     {
-
+        
         Auth::attempt($request->only("email", "password"));
 
         if (Auth::check()) {

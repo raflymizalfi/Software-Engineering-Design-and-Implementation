@@ -22,6 +22,7 @@ Route::group([], function () {
     Route::get('/', [ViewController::class, "home"]);
     Route::get('/services', [ViewController::class, "services"]);
     Route::get('/order', [ViewController::class, "order"]);
+    Route::get('/order-continue', [ViewController::class, "orderContinue"]);
     Route::get('/history', [ViewController::class, "history"]);
     Route::get('/order-detail/{id}', [ViewController::class, "orderDetail"]);
 });

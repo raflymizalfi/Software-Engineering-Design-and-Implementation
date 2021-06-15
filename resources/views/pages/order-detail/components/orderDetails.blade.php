@@ -83,7 +83,7 @@
             <div class="mx-auto" style="background: #F7F7F7; border-radius: 28px; ">
             <div class="p-5">
                 <div class="d-flex justify-content-between border-bottom border-dark my-4">
-                    <span class="fs-20 ms-4">Main Fee</span> <span class="fs-20 me-4">{{ number_format($order->service->fee, 0, ",", ".") }}</span>
+                    <span class="fs-20 ms-4">{{ ucwords($order->service->name) }}</span> <span class="fs-20 me-4">{{ number_format($order->service->fee, 0, ",", ".") }}</span>
                 </div>
                  <div class="d-flex justify-content-between border-bottom border-dark my-4">
                     <span class="fs-20 ms-4">Cleaner Fee</span> <span class="fs-20 me-4">{{ number_format($order->cleaner->fee, 0, ",", ".") }}</span>
@@ -97,7 +97,7 @@
                 @if(!$order->is_done)
                 <div class="d-flex justify-content-center">
                     <!-- <a href="{{ url('order/cancel/'.$order->id) }}" class="btn w-100 fs-30 py-2" style="border-radius: 15px ;background: #FF0000; color:white;">Cancel Order</a> -->
-                    <a href="{{ url('order/finish/'.$order->id) }}" class="btn w-100 fs-30 py-2" style="border-radius: 15px ;background: #FF0000; color:white;">Finish Order</a>
+                    <a href="{{ url('order/finish/'.$order->id) }}" class="btn w-100 fs-30 py-2" style="border-radius: 15px ;background: #00C46F; color:white;">Finish Order</a>
                 </div>
                 @endif
             </div>

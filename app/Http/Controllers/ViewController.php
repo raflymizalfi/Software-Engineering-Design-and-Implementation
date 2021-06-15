@@ -28,6 +28,10 @@ class ViewController extends Controller
         return view('pages.order.index', $request->all());
     }
 
+    function orderContinue(Request $request) {
+        return view('pages.order-continue.index', $request->all());
+    }
+
     function history(Request $request) {
         $on_going_orders = Order::where(["user_id" => Auth::id(), "is_done" => false])->get();
         $history_orders = Order::where(["user_id" => Auth::id(), "is_done" => true])->get();
