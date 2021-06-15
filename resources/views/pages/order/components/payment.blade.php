@@ -7,16 +7,16 @@
 
                 Payment Method </h1>
         </div>
-        <div class="my-5">
-            <div class="row d-flex justify-content-around align-items-center">
 
-                <div onclick="activeClassPayment(`cash`)" class="col-4 d-flex justify-content-center align-items-center p-2 border border-dark cash pointer" style="border-radius: 15px;
-">
-                    <h1 class="fs-30">Cash</h1>
+        <div class="my-5">
+            <div class="row d-flex justify-content-around align-items-center payment">
+                <div class="col-4 form-check">
+                    <input class="form-check-input" type='radio' value='cash' name='flexRadioDefault' id='cash'>
+                    <label onclick="activeClassPayment(`cash`),console.log(`cash`)" class="form-check-label w-100 fs-30 text-center  p-2 border border-dark cash pointer" for='cash' style="border-radius: 15px;">
+                        Cash</label>
                 </div>
-                <div onclick="activeClassPayment(`bank`)" class="col-4 d-flex justify-content-center align-items-center p-2 border border-dark bank pointer" style="border-radius: 15px;
-">
-                    <h1 class="fs-30">Bank Transfer</h1>
+                <div class="col-4 form-check"> <input class=" form-check-input" type='radio' value='bank' name='flexRadioDefault' id='bank'>
+                    <label onclick="activeClassPayment(`bank`),console.log(`bank`)" class="form-check-label w-100 fs-30 text-center   p-2 border border-dark bank pointer" style="border-radius: 15px;" for='bank'>Bank</label>
                 </div>
             </div>
         </div>
