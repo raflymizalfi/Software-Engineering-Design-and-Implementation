@@ -12,7 +12,7 @@
         <div class="d-flex justify-content-around">
             @foreach(App\Models\Cleaner::all() as $item)
             <label for="{{ $item->name }}" class="card {{ $item->name }}  {{ !empty($cleaner_id) && $cleaner_id == $item->id ? 'shadow' : '' }}" style="">
-                <input onclick="activeClassCleaner('<?= $item->name ?>')" type='radio' required value='{{ $item->id }}' name='cleaner_id' id="{{ $item->name }}" {{ !empty($cleaner_id) && $cleaner_id == $item->id ? 'checked' : '' }}/>
+                <input onclick="activeClassCleaner('<?= $item->name ?>')" type='radio' required value='{{ $item->id }}' name='cleaner_id' id="{{ $item->name }}" {{ !empty($cleaner_id) && $cleaner_id == $item->id ? 'checked' : '' }} />
                 <img src="{{ $item->photo }}" style="width: 150px; border-radius: 28px; height: 150px" alt="">
                 <div>
                     <h3 class="fs-20 text-center mt-2">{{ ucwords($item->name) }}</h3>
