@@ -58,7 +58,6 @@
         .vertical-line {
             display: inline-block;
             border-left: 3px solid #ccc;
-
             height: 125px;
         }
 
