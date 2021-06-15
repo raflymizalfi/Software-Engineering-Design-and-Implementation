@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/login', [ViewController::class, "login"])->name("login");
 Route::get('/register', [ViewController::class, "register"]);
-Route::group(["middleware" => "auth"], function () {
+Route::group([], function () {
     Route::get('/', [ViewController::class, "home"]);
     Route::get('/services', [ViewController::class, "services"]);
     Route::get('/order', [ViewController::class, "order"]);
