@@ -1,7 +1,7 @@
 <div>
     <div class="hero d-flex align-items-center">
         <div class="sub-hero ">
-            <h1 class="text-white mb-4 fw-bold" style="font-size: 50px">Welcome to <span>daily.com</span> !</h1>
+            <h1 class="text-white mb-4 fw-bold" style="font-size: 50px">Welcome, <span>{{ Auth::user()->name }}</span> !</h1>
             <h3 class="text-white fs-30">Daily.com is a website that provides <span>cleaning services</span> </h3>
             <h3 class="text-white fs-30">for your <span>home</span> , the best service for your daily needs!</h3>
             <h3 class="text-white mt-4 fw-bold fs-30">Our Services
