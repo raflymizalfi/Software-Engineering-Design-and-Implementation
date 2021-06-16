@@ -36,7 +36,7 @@ use Illuminate\Support\Facades\Session;
             background-size: cover;
             font-size: 3em;
             font-weight: 600;
-            text-align: right;
+            text-align: left;
             color: white;
             display: flex;
             align-items: center;
@@ -65,8 +65,8 @@ use Illuminate\Support\Facades\Session;
                 @yield("content")
             </div>
             <div id="auth__right" class="col-5">
-                <div>
-                    the best
+                <div class="mx-5">
+                    The best
                     <br>
                     <span class="color-light-accent">cleaning</span>
                     <br>
