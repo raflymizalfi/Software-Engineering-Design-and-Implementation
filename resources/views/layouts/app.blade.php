@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@0;900&display=swap" rel="stylesheet">
-    <title>Dailydaily</title>
+    <link rel="icon" href="{!! asset('img/logo.png') !!}" />
+    <title>Daily.com</title>
     <style>
         * {
             font-family: 'Poppins', sans-serif;
@@ -117,15 +117,15 @@
             cursor: pointer;
         }
 
-        .payment 
-        input, .icon-order input,.order input {
+        .payment input,
+        .icon-order input,
+        .order input {
             display: none;
         }
 
-        .order .shadow{
-            padding : 1em;
+        .order .shadow {
+            padding: 1em;
         }
-
     </style>
 </head>
 
@@ -136,13 +136,12 @@
 
     @include("layouts.components.footer")
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
     <script>
         const arr_service = <?= json_encode(App\Models\Service::pluck("short_name")); ?>;
         const arr_cleaner = <?= json_encode(App\Models\Cleaner::pluck("name")); ?>;
-        
+
         function activeClass(params) {
             const arr = ["home", "bedroom", "bathroom", "living", "kitchen", "yard", "garage", "warehouse"]
             for (let i = 0; i < arr.length; i++) {
@@ -155,6 +154,7 @@
                 }
             }
         }
+
         function activeClassPayment(params) {
             const cash = document.querySelector('.cash')
             const bank = document.querySelector('.bank')
@@ -166,10 +166,11 @@
                 bank.classList.remove('active-payment')
             }
         }
-        function activeClassCleaner(params){
-   
+
+        function activeClassCleaner(params) {
+
             const arr = arr_cleaner
-               for (let i = 0; i < arr.length; i++) {
+            for (let i = 0; i < arr.length; i++) {
                 if (arr[i] === params) {
                     let nowParams = document.querySelector(`.${params}`)
                     nowParams.classList.add(`shadow`)
@@ -177,7 +178,7 @@
                     let remove = document.querySelector(`.${arr[i]}`)
                     remove.classList.remove(`shadow`)
                 }
-               }
+            }
         }
     </script>
 </body>
