@@ -14,10 +14,10 @@
                     <input class="form-check-input" type='radio' value='cash' name='payment_method' required id='cash'>
                     <label onclick="activeClassPayment(`cash`)" class="form-check-label w-100 fs-30 text-center  p-2 border border-dark cash pointer" for='cash' style="border-radius: 15px;">Cash</label>
                 </div>
-                <div class="col-4 form-check">
+                <!-- <div class="col-4 form-check">
                     <input class=" form-check-input" type='radio' value='bank' name='payment_method' required id='bank'>
                     <label onclick="activeClassPayment(`bank`)" class="form-check-label w-100 fs-30 text-center   p-2 border border-dark bank pointer" style="border-radius: 15px;" for='bank'>Bank</label>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="my-5 container">
