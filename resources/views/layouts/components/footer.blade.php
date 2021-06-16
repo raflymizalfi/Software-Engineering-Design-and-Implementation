@@ -26,6 +26,6 @@
                 <div class="fs-15">Privacy policy</div>
             </div>
         </div>
-        <div class="fs-15 mt-3">dailydaily Company. All Rights Reserved</div>
+        <div class="fs-15 mt-3">&trade; Daily.com 2021. All Rights Reserved</div>
     </div>
 </footer>
