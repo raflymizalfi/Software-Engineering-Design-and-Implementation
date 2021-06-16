@@ -9,7 +9,7 @@
     <div class="icon-order  d-flex justify-content-around pb-5 gray-text" style="border-bottom : 2px dashed grey;">
         @foreach(App\Models\Service::all() as $item)
         <label for="{{ $item->short_name }}" class="card text-center p-2  d-flex-column justify-content-center align-items-center {{ $item->short_name }}-icon {{ !empty($service_id) && $service_id == $item->id ? 'active-order' : '' }}">
-            <input onclick="activeClass('{{ $item->short_name }}')" type='radio' required value='{{ $item->id }}' name='service_id' id='{{ $item->short_name }}' {{ !empty($service_id) && $service_id == $item->id ? 'checked' : '' }}/>
+            <input onclick="activeClass('{{ $item->short_name }}')" type='radio' required value='{{ $item->id }}' name='service_id' id='{{ $item->short_name }}' {{ !empty($service_id) && $service_id == $item->id ? 'checked' : '' }} />
             {!! $item->icon !!}
 
             <span class="fs-15 mt-2">{{ ucwords($item->name) }}</span>
@@ -21,8 +21,8 @@
             <div> <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="7.5" cy="7.5" r="7.5" fill="#00C46F" />
                 </svg> <span class="fs-15">YOUR LOCATION</span>
-                <input class="fw-bold fs-30 form-control my-1" placeholder="Location" name="location" required value="{{ $location ?? null }}"/>
-                <h6 class="fs-15">Kab bandung West Java, Indonesia</h6>
+                <input class="fw-bold fs-30 form-control my-1" placeholder="Home address" name="location" required value="{{ $location ?? null }}" />
+                <!-- <h6 class="fs-15">Home address</h6> -->
 
             </div>
         </div>
