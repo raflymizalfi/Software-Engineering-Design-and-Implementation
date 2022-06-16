@@ -22,7 +22,7 @@
                     <circle cx="7.5" cy="7.5" r="7.5" fill="#00C46F" />
                 </svg> <span class="fs-15">YOUR LOCATION</span>
                 <input class="fw-bold fs-30 form-control my-1" placeholder="Home address" name="location" required value="{{ $location ?? null }}" />
-                <!-- <h6 class="fs-15">Home address</h6> -->
+                <h6 class="fs-15">Home address</h6>
 
             </div>
         </div>
@@ -40,3 +40,4 @@
         </div>
     </div>
 </div>
+
