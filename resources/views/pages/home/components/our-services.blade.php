@@ -1,4 +1,4 @@
-<!-- <div>
+<div>
     <div class="d-flex flex-column justify-content-around container" style="margin-bottom : 20vh">
         <div class="mx-auto text-center w-75">
             <h1 class="fs-45
@@ -62,4 +62,4 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
